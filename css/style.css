@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border: 1px solid red;
+    background-color: #fff;
+    display: flex; 
+    justify-content: space-between;
+}
+#first-para{
+    color: red;
+}
+.second-para{
+    color: blue;
+}
+.second-para:hover{
+    color: green;
+}
+#first-para::before{
+    content: 'I must be honest';
+}
+#first-para::after{
+    content: 'He is great' ;
+}
+/* Descendant selector */
+#container p{
+    color: green;
+}
+/* child selector */
+#container >p{
+    color: red;
+}
+/* Sibling selector */
+#container > div ~ p{
+    font-size: 50px;
+}
+/* Adjascent selector */
+#container > div + p{
+font-weight: bolder;
+}
+header{
+    border: 1px solid red;
+    display: flex;
+    flex direction: row reverse;
+    justify-content: space-between
+    align-item: end
+}
+#logo{
+    with: 80px;
+    height: 80px;
+    border: 2px solid green;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+body {
+    background-image: ;
+}
+/*  */
